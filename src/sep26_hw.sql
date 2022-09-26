@@ -1,4 +1,5 @@
-/*
+set schema 'internet-shop';
+
 create table items (id integer primary key, name varchar(80), description varchar(200), producer_id integer, amount integer);
 create table producers (id integer primary key, name varchar(100), address varchar(200));
 create table customers (id integer primary key, name varchar(50), surname varchar(100));
